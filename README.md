@@ -10,7 +10,7 @@
 ### 🔹 Scraping Maxima website  
 - Parsing data of all products: **name, price, description, ID, parameters**.  
 - Parsed data stored in **Excel document**.  
-- [🔗 Github Link](#)
+- [🔗 Github Link](https://github.com/nik671641/ParsMaxsima)
 
 ---
 
