@@ -24,11 +24,13 @@ Developed an **intelligent Telegram bot** for automated customer interactions.
 
 ---
 
-Project: Telegram Sales Bot (n8n → Bitrix24/CRM)
-Summary:
+## Project: Telegram Sales Bot (n8n → Bitrix24/CRM)
+
+**Summary:**
+
 Developed an automated lead onboarding flow in n8n integrated with Telegram and Bitrix24 CRM. The bot greets users, collects contact details via inline forms, validates inputs, and creates leads/deals in the CRM. Integrated an AI agent with OpenAI for handling user questions and added webhooks to trigger external storytelling sequences.
 
-Main Features:
+**Main Features:**
 
 - Telegram flow with inline keyboards, branching (message, callback_query, command/text)
 - Phone/email validation using regex with friendly retry prompts
@@ -37,7 +39,7 @@ Main Features:
 - AI Agent built with LangChain + OpenAI (gpt-3.5-turbo) and short-term memory
 - Links to payment and private channel upon user request
 
-n8n Tools & Nodes:
+**n8n Tools & Nodes:**
 
 - Telegram Trigger / Telegram (messages, inline buttons, answerCallbackQuery)
 - IF / Switch (branching by JSON fields and prefixes)
@@ -46,7 +48,7 @@ n8n Tools & Nodes:
 - LangChain Agent + OpenAI Chat Model (gpt-3.5-turbo) + Memory Buffer
 - Regex for phone/email validation
 
-Tech stack:
+**Tech stack:**
 - n8n, Telegram Bot API, PostgreSQL, Bitrix24 REST, LangChain, OpenAI, Webhooks, Regex
 
 ---
