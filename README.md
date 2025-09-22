@@ -1,17 +1,8 @@
 # 💼 Work Experience
 
-## Python Developer (Freelance)  
-**April 2025 – May 2024**
 
-### 🔹 Telegram-bot for Inventory Accounting (Warehouse)  
-- Created to **manage tools in the warehouse**.  
-- Documentation in Russian:  
-  - [📄 Работа на складе – Google Docs](https://docs.google.com/document/d/1Ah76NOdSGl2Pxfr-4IQi5ROajsIEykVLfzZHtOnFVw8/edit?tab=t.0)  
-  - [📄 Как пользоваться ботом – Google Docs](https://docs.google.com/document/d/17tWUT4O_M2_L8pT45vN7OtW6X0f7rebURc5YvP0I5f0/edit?tab=t.0#heading=h.lzl87hau6bb7)  
-- ⚠️ Code is incomplete on GitHub.  
-
----
-
+## Python Developer "RDG Smart Solutions"  
+**April 2025 – July 2025**
 ### 🔹 Telegram Bot with AI & Bitrix24 Integration  
 Developed an **intelligent Telegram bot** for automated customer interactions.  
 
@@ -33,11 +24,52 @@ Developed an **intelligent Telegram bot** for automated customer interactions.
 
 ---
 
+Project: Telegram Sales Bot (n8n → Bitrix24/CRM)
+Summary:
+Developed an automated lead onboarding flow in n8n integrated with Telegram and Bitrix24 CRM. The bot greets users, collects contact details via inline forms, validates inputs, and creates leads/deals in the CRM. Integrated an AI agent with OpenAI for handling user questions and added webhooks to trigger external storytelling sequences.
+
+Main Features:
+
+- Telegram flow with inline keyboards, branching (message, callback_query, command/text)
+- Phone/email validation using regex with friendly retry prompts
+- Lead data stored in PostgreSQL with upsert logic by chat_id
+- Bitrix24 CRM integration: search/create contact, auto-create deals
+- AI Agent built with LangChain + OpenAI (gpt-3.5-turbo) and short-term memory
+- Links to payment and private channel upon user request
+
+n8n Tools & Nodes:
+
+- Telegram Trigger / Telegram (messages, inline buttons, answerCallbackQuery)
+- IF / Switch (branching by JSON fields and prefixes)
+- Postgres (select/insert/update with upsert)
+- HTTP Request (Bitrix24 REST API, external webhooks)\
+- LangChain Agent + OpenAI Chat Model (gpt-3.5-turbo) + Memory Buffer
+- Regex for phone/email validation
+
+Tech stack:
+- n8n, Telegram Bot API, PostgreSQL, Bitrix24 REST, LangChain, OpenAI, Webhooks, Regex
+
+---
+
 ### 🌐 My Sites
 - [nik671641/RIVO](https://github.com/nik671641/RIVO/tree/main)  
 - [nik671641/Mabel-by-human](https://github.com/nik671641/Mabel-by-human)  
 
 ---
+
+
+## Python Developer (Freelance)  
+**April 2024 – May 2024**
+
+### 🔹 Telegram-bot for Inventory Accounting (Warehouse)  
+- Created to **manage tools in the warehouse**.  
+- Documentation in Russian:  
+  - [📄 Работа на складе – Google Docs](https://docs.google.com/document/d/1Ah76NOdSGl2Pxfr-4IQi5ROajsIEykVLfzZHtOnFVw8/edit?tab=t.0)  
+  - [📄 Как пользоваться ботом – Google Docs](https://docs.google.com/document/d/17tWUT4O_M2_L8pT45vN7OtW6X0f7rebURc5YvP0I5f0/edit?tab=t.0#heading=h.lzl87hau6bb7)  
+- ⚠️ Code is incomplete on GitHub.  
+
+---
+
 
 **December 2023 – April 2024**
 
